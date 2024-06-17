@@ -32,9 +32,13 @@ By in the given code, BOTH esp32 and python program sends a greeting msg (HELLO 
 *In the main function, modify the "send_message()" function call to accept user input for the message. Here's an example:*
 
 def main(queue):
+
     while True:
+    
         message = input("Enter message to send: ")  # Get user input
+        
         send_message(message)  # Pass user input to send_message function
+        
         # ... rest of your code
 
 
@@ -44,8 +48,11 @@ The current code already uses get_latest_message(queue) to capture the latest me
 # HOW TO MODIFY ESP32 CODE FOR UR NEEDS:
 # To send data:
 simply use send_msg() function on void loop() to send data. Here is an eg:
+
 def void loop(){
+
   send_msg("HELLO FROM ESP32")
+  
  .......rest of ur logic here
 
 # To recive data:
