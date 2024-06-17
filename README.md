@@ -32,6 +32,7 @@ By in the given code, BOTH esp32 and python program sends a greeting msg (HELLO 
 *In the main function, modify the "send_message()" function call to accept user input for the message. Here's an example:*
 
 .
+
 def main(queue):
 
     while True:
