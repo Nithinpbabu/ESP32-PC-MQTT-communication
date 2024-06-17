@@ -4,11 +4,17 @@ It provides a basic framework for building applications that exchange data betwe
 
 # Features:
 -Connects ESP32 to a WiFi network.
+
 -Establishes connection with an MQTT broker.
+
 -Subscribes to a shared topic for message exchange.
+
 -Sends messages from ESP32 to PC (example: current time).
+
 -Receives messages from PC to ESP32 (example: greetings).
+
 -Uses FreeRTOS tasks for concurrent message sending and receiving (optional).
+
 -Provides comments and explanations for code clarity.
 
 # Getting Started:
